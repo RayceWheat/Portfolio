@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start of header styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header div img {
+    padding-top: 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+/* End of header styles */
+
+/* Start of hero styles */
+.hero { 
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* End of hero styles */
+
+/* Start of bio styles */
+.bio {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End of bio styles */
+
+/* Start of work styles */
+.works {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* End of work stlyes */
+
+/* Start of contact styles */
+.contact {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End of contact styles */
+
+/* Utilities */
+.flex-row {
+    display: flex;
+}
+
+.left-row {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 30%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-row {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    align-items: center;
+}
